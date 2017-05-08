@@ -1,0 +1,1 @@
+2017-04-20 14:12:09.367 [error] <0.580.0> Supervisor received unexpected message: {gen_event_EXIT,{partisan_peer_service_events,#Ref<0.0.2.86>},shutdown}

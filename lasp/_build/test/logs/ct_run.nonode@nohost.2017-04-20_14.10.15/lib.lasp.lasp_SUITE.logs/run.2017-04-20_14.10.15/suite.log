@@ -1,0 +1,178 @@
+=== Suite started at 2017-04-20 14:10:15
+=== Starting test, 23 test cases
+=cases         23
+=user          antoine
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-04-20 14:10:15
+=case          lasp_SUITE:init_per_suite
+=logfile       lasp_suite.init_per_suite.html
+=started       2017-04-20 14:10:15
+=ended         2017-04-20 14:10:16
+=result        failed: {{badmatch,
+                         {error,
+                          {lasp,
+                           {{shutdown,
+                             {failed_to_start_child,lasp_workflow,
+                              {connection_error,
+                               {connection_error,econnrefused}}}},
+                            {lasp_app,start,[normal,[]]}}}}},
+                        [{lasp_support,start_runner,0,
+                          [{file,
+                            "/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/lib/lasp/src/lasp_support.erl"},
+                           {line,271}]},
+                         {lasp_SUITE,init_per_suite,1,
+                          [{file,
+                            "/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/lib/lasp/test/lasp_SUITE.erl"},
+                           {line,46}]},
+                         {test_server,ts_tc,3,
+                          [{file,"test_server.erl"},{line,1529}]},
+                         {test_server,run_test_case_eval1,6,
+                          [{file,"test_server.erl"},{line,1130}]},
+                         {test_server,run_test_case_eval,9,
+                          [{file,"test_server.erl"},{line,977}]}]}, [{lasp_support,
+                                                                      start_runner,
+                                                                      271},
+                                                                     {lasp_SUITE,
+                                                                      init_per_suite,
+                                                                      46},
+                                                                     {test_server,
+                                                                      ts_tc,
+                                                                      1529},
+                                                                     {test_server,
+                                                                      run_test_case_eval1,
+                                                                      1130},
+                                                                     {test_server,
+                                                                      run_test_case_eval,
+                                                                      977}]
+=== *** FAILED {lasp_SUITE,init_per_suite} ***
+=== 
+=case          lasp_SUITE:contracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #1 {lasp_SUITE,contracted_latency_test} ***
+=== 
+=case          lasp_SUITE:uncontracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #2 {lasp_SUITE,uncontracted_latency_test} ***
+=== 
+=case          lasp_SUITE:latency_with_reads_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #3 {lasp_SUITE,latency_with_reads_test} ***
+=== 
+=case          lasp_SUITE:sql_parser_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #4 {lasp_SUITE,sql_parser_test} ***
+=== 
+=case          lasp_SUITE:sql_combined_view_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #5 {lasp_SUITE,sql_combined_view_test} ***
+=== 
+=case          lasp_SUITE:sql_simple_contracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #6 {lasp_SUITE,sql_simple_contracted_latency_test} ***
+=== 
+=case          lasp_SUITE:sql_simple_uncontracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #7 {lasp_SUITE,sql_simple_uncontracted_latency_test} ***
+=== 
+=case          lasp_SUITE:sql_join_contracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #8 {lasp_SUITE,sql_join_contracted_latency_test} ***
+=== 
+=case          lasp_SUITE:sql_join_uncontracted_latency_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #9 {lasp_SUITE,sql_join_uncontracted_latency_test} ***
+=== 
+=case          lasp_SUITE:stream_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #10 {lasp_SUITE,stream_test} ***
+=== 
+=case          lasp_SUITE:query_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #11 {lasp_SUITE,query_test} ***
+=== 
+=case          lasp_SUITE:ivar_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #12 {lasp_SUITE,ivar_test} ***
+=== 
+=case          lasp_SUITE:orset_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #13 {lasp_SUITE,orset_test} ***
+=== 
+=case          lasp_SUITE:awset_ps_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #14 {lasp_SUITE,awset_ps_test} ***
+=== 
+=case          lasp_SUITE:dynamic_ivar_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #15 {lasp_SUITE,dynamic_ivar_test} ***
+=== 
+=case          lasp_SUITE:monotonic_read_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #16 {lasp_SUITE,monotonic_read_test} ***
+=== 
+=case          lasp_SUITE:map_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #17 {lasp_SUITE,map_test} ***
+=== 
+=case          lasp_SUITE:filter_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #18 {lasp_SUITE,filter_test} ***
+=== 
+=case          lasp_SUITE:union_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #19 {lasp_SUITE,union_test} ***
+=== 
+=case          lasp_SUITE:product_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #20 {lasp_SUITE,product_test} ***
+=== 
+=case          lasp_SUITE:intersection_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #21 {lasp_SUITE,intersection_test} ***
+=== 
+=case          lasp_SUITE:membership_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #22 {lasp_SUITE,membership_test} ***
+=== 
+=case          lasp_SUITE:enforce_once_test
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping test case #23 {lasp_SUITE,enforce_once_test} ***
+=== 
+=case          lasp_SUITE:end_per_suite
+=started       2017-04-20 14:10:16
+=result        auto_skipped: init_per_suite failed
+=== *** Skipping {lasp_SUITE,end_per_suite} ***
+=== TEST COMPLETE, 0 ok, 0 failed, 23 skipped of 23 test cases
+
+=finished      2017-04-20 14:10:16
+=failed        0
+=successful    0
+=user_skipped  0
+=auto_skipped  23

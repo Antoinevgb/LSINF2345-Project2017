@@ -1,0 +1,823 @@
+2017-05-03 15:06:51.085 [info] <0.31.0> Application lager started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.085 [info] <0.31.0> Application time_compat started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.146 [info] <0.31.0> Application os_mon started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.169 [info] <0.31.0> Application riak_dt started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.169 [info] <0.31.0> Application lasp_support started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.171 [info] <0.31.0> Application rand_compat started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.176 [info] <0.31.0> Application acceptor_pool started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.301 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.339 [info] <0.31.0> Application plumtree started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.339 [info] <0.625.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:06:51.340 [info] <0.625.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:06:51.341 [info] <0.625.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:06:51.342 [info] <0.625.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:06:51.343 [info] <0.625.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:06:51.344 [info] <0.625.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:06:51.345 [info] <0.625.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:06:51.346 [info] <0.625.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:06:51.348 [info] <0.625.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:06:51.370 [info] <0.625.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:06:51.371 [info] <0.625.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:06:51.375 [info] <0.625.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:06:51.378 [info] <0.625.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:06:51.379 [info] <0.625.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:06:51.379 [info] <0.625.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:06:51.380 [info] <0.625.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:06:51.381 [info] <0.625.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:06:51.382 [info] <0.625.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:06:51.383 [info] <0.625.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:06:51.384 [info] <0.625.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:06:51.385 [info] <0.625.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:06:51.412 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:06:51.448 [info] <0.703.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:06:52.647 [info] <0.703.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:06:52.648 [info] <0.703.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:06:52.651 [info] <0.703.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:06:53.987 [info] <0.703.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:06:53.988 [info] <0.703.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:06:53.991 [info] <0.703.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:06:55.326 [info] <0.703.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:06:55.327 [info] <0.703.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:06:55.330 [info] <0.703.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:02.606 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:02.607 [error] <0.620.0> Supervisor received unexpected message: {gen_event_EXIT,{partisan_peer_service_events,#Ref<0.0.1.9976>},shutdown}
+2017-05-03 15:07:02.636 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:02.667 [info] <0.1004.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:02.682 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:02.682 [info] <0.1050.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:02.683 [info] <0.1050.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:02.684 [info] <0.1050.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:02.685 [info] <0.1050.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:02.686 [info] <0.1050.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:02.687 [info] <0.1050.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:02.688 [info] <0.1050.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:02.689 [info] <0.1050.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:02.691 [info] <0.1050.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:02.706 [info] <0.1050.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:02.708 [info] <0.1050.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:02.713 [info] <0.1050.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:02.715 [info] <0.1050.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:02.716 [info] <0.1050.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:02.717 [info] <0.1050.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:02.718 [info] <0.1050.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:02.719 [info] <0.1050.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:02.720 [info] <0.1050.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:02.721 [info] <0.1050.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:02.722 [info] <0.1050.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:02.723 [info] <0.1050.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:02.733 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:07:03.910 [info] <0.1004.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:03.911 [info] <0.1004.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:03.914 [info] <0.1004.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:07:05.267 [info] <0.1004.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:05.268 [info] <0.1004.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:05.271 [info] <0.1004.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:07:06.610 [info] <0.1004.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:06.611 [info] <0.1004.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:06.614 [info] <0.1004.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:13.898 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:13.898 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:13.929 [info] <0.1365.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:13.955 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:13.955 [info] <0.1409.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:13.957 [info] <0.1409.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:13.959 [info] <0.1409.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:13.961 [info] <0.1409.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:13.963 [info] <0.1409.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:13.965 [info] <0.1409.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:13.966 [info] <0.1409.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:13.968 [info] <0.1409.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:13.972 [info] <0.1409.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:14.000 [info] <0.1409.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:14.002 [info] <0.1409.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:14.009 [info] <0.1409.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:14.013 [info] <0.1409.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:14.015 [info] <0.1409.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:14.016 [info] <0.1409.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:14.018 [info] <0.1409.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:14.020 [info] <0.1409.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:14.021 [info] <0.1409.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:14.023 [info] <0.1409.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:14.025 [info] <0.1409.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:14.027 [info] <0.1409.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:14.037 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:07:15.209 [info] <0.1365.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:15.210 [info] <0.1365.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:15.213 [info] <0.1365.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:07:16.541 [info] <0.1365.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:16.542 [info] <0.1365.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:16.545 [info] <0.1365.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:07:17.882 [info] <0.1365.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:17.883 [info] <0.1365.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:17.885 [info] <0.1365.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:25.174 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:25.175 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:25.205 [info] <0.1723.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:25.231 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:25.231 [info] <0.1767.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:25.233 [info] <0.1767.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:25.234 [info] <0.1767.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:25.236 [info] <0.1767.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:25.238 [info] <0.1767.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:25.240 [info] <0.1767.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:25.242 [info] <0.1767.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:25.244 [info] <0.1767.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:25.247 [info] <0.1767.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:25.275 [info] <0.1767.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:25.277 [info] <0.1767.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:25.284 [info] <0.1767.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:25.288 [info] <0.1767.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:25.290 [info] <0.1767.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:25.292 [info] <0.1767.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:25.294 [info] <0.1767.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:25.295 [info] <0.1767.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:25.297 [info] <0.1767.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:25.299 [info] <0.1767.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:25.301 [info] <0.1767.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:25.303 [info] <0.1767.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:25.313 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:07:26.494 [info] <0.1723.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:26.495 [info] <0.1723.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:26.498 [info] <0.1723.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:07:27.835 [info] <0.1723.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:27.836 [info] <0.1723.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:27.839 [info] <0.1723.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:07:29.184 [info] <0.1723.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:29.185 [info] <0.1723.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:29.189 [info] <0.1723.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:37.015 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:37.016 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:37.051 [info] <0.2179.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:37.077 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:37.077 [info] <0.2223.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:37.079 [info] <0.2223.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:37.081 [info] <0.2223.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:37.083 [info] <0.2223.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:37.085 [info] <0.2223.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:37.086 [info] <0.2223.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:37.088 [info] <0.2223.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:37.090 [info] <0.2223.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:37.094 [info] <0.2223.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:37.122 [info] <0.2223.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:37.124 [info] <0.2223.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:37.131 [info] <0.2223.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:37.135 [info] <0.2223.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:37.137 [info] <0.2223.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:37.138 [info] <0.2223.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:37.140 [info] <0.2223.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:37.142 [info] <0.2223.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:37.144 [info] <0.2223.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:37.145 [info] <0.2223.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:37.147 [info] <0.2223.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:37.149 [info] <0.2223.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:37.159 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:07:38.352 [info] <0.2179.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:38.353 [info] <0.2179.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:38.356 [info] <0.2179.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:07:39.690 [info] <0.2179.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:39.692 [info] <0.2179.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:39.694 [info] <0.2179.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:07:41.024 [info] <0.2179.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:41.025 [info] <0.2179.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:41.028 [info] <0.2179.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:48.527 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:48.528 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:48.558 [info] <0.2571.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:48.584 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:48.585 [info] <0.2616.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:48.586 [info] <0.2616.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:48.588 [info] <0.2616.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:48.590 [info] <0.2616.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:48.592 [info] <0.2616.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:48.594 [info] <0.2616.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:48.596 [info] <0.2616.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:48.597 [info] <0.2616.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:48.601 [info] <0.2616.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:48.629 [info] <0.2616.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:48.631 [info] <0.2616.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:48.638 [info] <0.2616.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:48.642 [info] <0.2616.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:48.643 [info] <0.2616.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:48.645 [info] <0.2616.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:48.647 [info] <0.2616.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:48.649 [info] <0.2616.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:48.650 [info] <0.2616.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:48.652 [info] <0.2616.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:48.654 [info] <0.2616.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:48.656 [info] <0.2616.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:48.666 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:07:49.839 [info] <0.2571.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:49.840 [info] <0.2571.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:49.842 [info] <0.2571.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:07:51.172 [info] <0.2571.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:51.174 [info] <0.2571.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:51.177 [info] <0.2571.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:07:52.512 [info] <0.2571.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:07:52.513 [info] <0.2571.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:07:52.516 [info] <0.2571.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:07:59.801 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:07:59.802 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:07:59.832 [info] <0.2929.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:07:59.858 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:07:59.858 [info] <0.2973.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:07:59.860 [info] <0.2973.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:07:59.862 [info] <0.2973.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:07:59.864 [info] <0.2973.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:07:59.866 [info] <0.2973.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:07:59.868 [info] <0.2973.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:07:59.869 [info] <0.2973.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:07:59.871 [info] <0.2973.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:07:59.875 [info] <0.2973.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:07:59.903 [info] <0.2973.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:07:59.905 [info] <0.2973.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:07:59.913 [info] <0.2973.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:07:59.916 [info] <0.2973.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:07:59.918 [info] <0.2973.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:07:59.920 [info] <0.2973.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:07:59.921 [info] <0.2973.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:07:59.923 [info] <0.2973.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:07:59.925 [info] <0.2973.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:07:59.927 [info] <0.2973.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:07:59.929 [info] <0.2973.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:07:59.931 [info] <0.2973.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:07:59.941 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:01.109 [info] <0.2929.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:01.110 [info] <0.2929.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:01.113 [info] <0.2929.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:02.471 [info] <0.2929.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:02.472 [info] <0.2929.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:02.475 [info] <0.2929.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:08:03.820 [info] <0.2929.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:03.821 [info] <0.2929.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:03.825 [info] <0.2929.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:08:11.080 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:08:11.080 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:08:11.111 [info] <0.3287.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:08:11.137 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:08:11.137 [info] <0.3332.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:08:11.139 [info] <0.3332.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:08:11.141 [info] <0.3332.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:08:11.143 [info] <0.3332.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:08:11.145 [info] <0.3332.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:08:11.147 [info] <0.3332.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:08:11.149 [info] <0.3332.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:08:11.151 [info] <0.3332.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:08:11.155 [info] <0.3332.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:08:11.184 [info] <0.3332.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:08:11.186 [info] <0.3332.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:08:11.193 [info] <0.3332.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:08:11.196 [info] <0.3332.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:08:11.198 [info] <0.3332.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:08:11.200 [info] <0.3332.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:08:11.202 [info] <0.3332.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:08:11.203 [info] <0.3332.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:08:11.205 [info] <0.3332.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:08:11.207 [info] <0.3332.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:08:11.209 [info] <0.3332.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:08:11.210 [info] <0.3332.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:08:11.221 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:12.417 [info] <0.3287.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:12.418 [info] <0.3287.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:12.421 [info] <0.3287.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:13.763 [info] <0.3287.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:13.764 [info] <0.3287.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:13.767 [info] <0.3287.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:08:15.126 [info] <0.3287.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:15.127 [info] <0.3287.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:15.130 [info] <0.3287.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:08:22.416 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:08:22.416 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:08:22.447 [info] <0.3648.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:08:22.474 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:08:22.474 [info] <0.3693.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:08:22.476 [info] <0.3693.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:08:22.478 [info] <0.3693.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:08:22.480 [info] <0.3693.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:08:22.482 [info] <0.3693.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:08:22.483 [info] <0.3693.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:08:22.485 [info] <0.3693.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:08:22.487 [info] <0.3693.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:08:22.491 [info] <0.3693.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:08:22.519 [info] <0.3693.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:08:22.521 [info] <0.3693.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:08:22.529 [info] <0.3693.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:08:22.536 [info] <0.3693.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:08:22.538 [info] <0.3693.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:08:22.540 [info] <0.3693.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:08:22.542 [info] <0.3693.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:08:22.544 [info] <0.3693.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:08:22.546 [info] <0.3693.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:08:22.547 [info] <0.3693.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:08:22.549 [info] <0.3693.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:08:22.551 [info] <0.3693.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:08:22.561 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:23.753 [info] <0.3648.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:23.754 [info] <0.3648.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:23.757 [info] <0.3648.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:25.093 [info] <0.3648.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:25.094 [info] <0.3648.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:25.097 [info] <0.3648.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:08:26.439 [info] <0.3648.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:26.445 [info] <0.3648.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:26.448 [info] <0.3648.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:08:33.712 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:08:33.713 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:08:33.743 [info] <0.4010.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:08:33.769 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:08:33.769 [info] <0.4055.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:08:33.771 [info] <0.4055.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:08:33.773 [info] <0.4055.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:08:33.775 [info] <0.4055.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:08:33.777 [info] <0.4055.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:08:33.779 [info] <0.4055.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:08:33.780 [info] <0.4055.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:08:33.782 [info] <0.4055.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:08:33.786 [info] <0.4055.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:08:33.814 [info] <0.4055.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:08:33.818 [info] <0.4055.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:08:33.826 [info] <0.4055.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:08:33.829 [info] <0.4055.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:08:33.831 [info] <0.4055.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:08:33.833 [info] <0.4055.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:08:33.834 [info] <0.4055.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:08:33.836 [info] <0.4055.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:08:33.838 [info] <0.4055.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:08:33.840 [info] <0.4055.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:08:33.842 [info] <0.4055.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:08:33.843 [info] <0.4055.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:08:33.854 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:35.023 [info] <0.4010.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:35.024 [info] <0.4010.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:35.027 [info] <0.4010.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:36.359 [info] <0.4010.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:36.360 [info] <0.4010.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:36.363 [info] <0.4010.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:08:37.690 [info] <0.4010.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:37.691 [info] <0.4010.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:37.694 [info] <0.4010.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:08:45.001 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:08:45.003 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:08:45.038 [info] <0.4379.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:08:45.063 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:08:45.063 [info] <0.4424.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:08:45.065 [info] <0.4424.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:08:45.067 [info] <0.4424.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:08:45.069 [info] <0.4424.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:08:45.071 [info] <0.4424.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:08:45.073 [info] <0.4424.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:08:45.075 [info] <0.4424.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:08:45.076 [info] <0.4424.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:08:45.080 [info] <0.4424.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:08:45.108 [info] <0.4424.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:08:45.109 [info] <0.4424.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:08:45.116 [info] <0.4424.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:08:45.120 [info] <0.4424.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:08:45.122 [info] <0.4424.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:08:45.124 [info] <0.4424.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:08:45.126 [info] <0.4424.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:08:45.127 [info] <0.4424.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:08:45.129 [info] <0.4424.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:08:45.131 [info] <0.4424.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:08:45.133 [info] <0.4424.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:08:45.134 [info] <0.4424.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:08:45.145 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:46.347 [info] <0.4379.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:46.348 [info] <0.4379.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:46.351 [info] <0.4379.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:47.688 [info] <0.4379.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:47.689 [info] <0.4379.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:47.692 [info] <0.4379.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:08:49.066 [info] <0.4379.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:49.067 [info] <0.4379.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:49.070 [info] <0.4379.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:08:56.351 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:08:56.352 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:08:56.382 [info] <0.4747.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:08:56.408 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:08:56.408 [info] <0.4791.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:08:56.410 [info] <0.4791.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:08:56.412 [info] <0.4791.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:08:56.414 [info] <0.4791.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:08:56.415 [info] <0.4791.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:08:56.417 [info] <0.4791.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:08:56.419 [info] <0.4791.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:08:56.421 [info] <0.4791.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:08:56.425 [info] <0.4791.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:08:56.453 [info] <0.4791.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:08:56.455 [info] <0.4791.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:08:56.463 [info] <0.4791.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:08:56.467 [info] <0.4791.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:08:56.469 [info] <0.4791.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:08:56.471 [info] <0.4791.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:08:56.473 [info] <0.4791.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:08:56.475 [info] <0.4791.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:08:56.477 [info] <0.4791.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:08:56.479 [info] <0.4791.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:08:56.480 [info] <0.4791.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:08:56.482 [info] <0.4791.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:08:56.493 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:08:57.668 [info] <0.4747.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:57.669 [info] <0.4747.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:57.672 [info] <0.4747.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:08:59.000 [info] <0.4747.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:08:59.001 [info] <0.4747.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:08:59.004 [info] <0.4747.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:09:00.333 [info] <0.4747.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:00.334 [info] <0.4747.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:00.337 [info] <0.4747.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:09:11.616 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:09:11.617 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:09:11.649 [info] <0.5126.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:09:11.675 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:09:11.675 [info] <0.5171.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:09:11.677 [info] <0.5171.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:09:11.679 [info] <0.5171.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:09:11.681 [info] <0.5171.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:09:11.683 [info] <0.5171.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:09:11.685 [info] <0.5171.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:09:11.687 [info] <0.5171.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:09:11.689 [info] <0.5171.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:09:11.692 [info] <0.5171.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:09:11.721 [info] <0.5171.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:09:11.723 [info] <0.5171.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:09:11.730 [info] <0.5171.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:09:11.734 [info] <0.5171.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:09:11.736 [info] <0.5171.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:09:11.738 [info] <0.5171.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:09:11.739 [info] <0.5171.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:09:11.741 [info] <0.5171.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:09:11.743 [info] <0.5171.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:09:11.745 [info] <0.5171.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:09:11.747 [info] <0.5171.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:09:11.748 [info] <0.5171.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:09:11.759 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:09:12.964 [info] <0.5126.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:12.965 [info] <0.5126.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:12.968 [info] <0.5126.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:09:14.298 [info] <0.5126.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:14.299 [info] <0.5126.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:14.302 [info] <0.5126.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:09:15.637 [info] <0.5126.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:15.638 [info] <0.5126.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:15.641 [info] <0.5126.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:09:30.989 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:09:30.990 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:09:31.020 [info] <0.5520.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:09:31.047 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:09:31.047 [info] <0.5564.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:09:31.049 [info] <0.5564.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:09:31.051 [info] <0.5564.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:09:31.053 [info] <0.5564.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:09:31.055 [info] <0.5564.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:09:31.056 [info] <0.5564.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:09:31.058 [info] <0.5564.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:09:31.060 [info] <0.5564.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:09:31.063 [info] <0.5564.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:09:31.092 [info] <0.5564.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:09:31.094 [info] <0.5564.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:09:31.100 [info] <0.5564.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:09:31.104 [info] <0.5564.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:09:31.106 [info] <0.5564.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:09:31.108 [info] <0.5564.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:09:31.109 [info] <0.5564.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:09:31.111 [info] <0.5564.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:09:31.113 [info] <0.5564.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:09:31.115 [info] <0.5564.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:09:31.116 [info] <0.5564.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:09:31.118 [info] <0.5564.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:09:31.129 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:09:32.297 [info] <0.5520.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:32.298 [info] <0.5520.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:32.301 [info] <0.5520.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:09:33.646 [info] <0.5520.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:33.647 [info] <0.5520.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:33.650 [info] <0.5520.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:09:34.982 [info] <0.5520.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:34.983 [info] <0.5520.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:34.986 [info] <0.5520.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:09:50.322 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:09:50.322 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:09:50.353 [info] <0.5917.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:09:50.380 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:09:50.380 [info] <0.5961.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:09:50.382 [info] <0.5961.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:09:50.384 [info] <0.5961.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:09:50.386 [info] <0.5961.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:09:50.387 [info] <0.5961.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:09:50.389 [info] <0.5961.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:09:50.391 [info] <0.5961.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:09:50.393 [info] <0.5961.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:09:50.397 [info] <0.5961.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:09:50.425 [info] <0.5961.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:09:50.426 [info] <0.5961.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:09:50.433 [info] <0.5961.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:09:50.437 [info] <0.5961.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:09:50.442 [info] <0.5961.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:09:50.444 [info] <0.5961.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:09:50.446 [info] <0.5961.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:09:50.448 [info] <0.5961.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:09:50.450 [info] <0.5961.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:09:50.452 [info] <0.5961.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:09:50.453 [info] <0.5961.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:09:50.455 [info] <0.5961.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:09:50.467 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:09:51.646 [info] <0.5917.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:51.647 [info] <0.5917.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:51.650 [info] <0.5917.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:09:52.982 [info] <0.5917.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:52.983 [info] <0.5917.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:52.986 [info] <0.5917.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:09:54.324 [info] <0.5917.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:09:54.325 [info] <0.5917.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:09:54.329 [info] <0.5917.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:10:01.596 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:10:01.597 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:10:01.626 [info] <0.6291.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:10:01.653 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:10:01.653 [info] <0.6336.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:10:01.655 [info] <0.6336.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:10:01.656 [info] <0.6336.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:10:01.658 [info] <0.6336.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:10:01.660 [info] <0.6336.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:10:01.662 [info] <0.6336.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:10:01.664 [info] <0.6336.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:10:01.665 [info] <0.6336.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:10:01.669 [info] <0.6336.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:10:01.697 [info] <0.6336.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:10:01.702 [info] <0.6336.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:10:01.710 [info] <0.6336.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:10:01.714 [info] <0.6336.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:10:01.715 [info] <0.6336.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:10:01.717 [info] <0.6336.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:10:01.719 [info] <0.6336.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:10:01.721 [info] <0.6336.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:10:01.723 [info] <0.6336.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:10:01.724 [info] <0.6336.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:10:01.726 [info] <0.6336.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:10:01.728 [info] <0.6336.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:10:01.739 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:10:02.932 [info] <0.6291.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:02.933 [info] <0.6291.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:02.936 [info] <0.6291.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:10:04.276 [info] <0.6291.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:04.277 [info] <0.6291.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:04.280 [info] <0.6291.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:10:05.615 [info] <0.6291.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:05.616 [info] <0.6291.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:05.619 [info] <0.6291.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:10:12.923 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:10:12.923 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:10:12.954 [info] <0.6684.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:10:12.980 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:10:12.981 [info] <0.6729.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:10:12.982 [info] <0.6729.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:10:12.984 [info] <0.6729.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:10:12.986 [info] <0.6729.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:10:12.988 [info] <0.6729.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:10:12.990 [info] <0.6729.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:10:12.991 [info] <0.6729.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:10:12.993 [info] <0.6729.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:10:12.997 [info] <0.6729.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:10:13.026 [info] <0.6729.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:10:13.027 [info] <0.6729.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:10:13.034 [info] <0.6729.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:10:13.038 [info] <0.6729.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:10:13.040 [info] <0.6729.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:10:13.042 [info] <0.6729.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:10:13.043 [info] <0.6729.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:10:13.045 [info] <0.6729.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:10:13.047 [info] <0.6729.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:10:13.049 [info] <0.6729.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:10:13.051 [info] <0.6729.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:10:13.052 [info] <0.6729.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:10:13.063 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:10:14.239 [info] <0.6684.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:14.240 [info] <0.6684.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:14.244 [info] <0.6684.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:10:15.586 [info] <0.6684.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:15.587 [info] <0.6684.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:15.590 [info] <0.6684.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:10:16.955 [info] <0.6684.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:16.956 [info] <0.6684.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:16.959 [info] <0.6684.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:10:32.263 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:10:32.264 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:10:32.294 [info] <0.7070.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:10:32.320 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:10:32.320 [info] <0.7115.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:10:32.322 [info] <0.7115.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:10:32.324 [info] <0.7115.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:10:32.326 [info] <0.7115.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:10:32.328 [info] <0.7115.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:10:32.330 [info] <0.7115.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:10:32.331 [info] <0.7115.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:10:32.333 [info] <0.7115.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:10:32.337 [info] <0.7115.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:10:32.365 [info] <0.7115.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:10:32.366 [info] <0.7115.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:10:32.374 [info] <0.7115.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:10:32.378 [info] <0.7115.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:10:32.379 [info] <0.7115.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:10:32.381 [info] <0.7115.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:10:32.383 [info] <0.7115.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:10:32.385 [info] <0.7115.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:10:32.387 [info] <0.7115.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:10:32.388 [info] <0.7115.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:10:32.390 [info] <0.7115.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:10:32.392 [info] <0.7115.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:10:32.403 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:10:33.578 [info] <0.7070.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:33.579 [info] <0.7070.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:33.582 [info] <0.7070.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:10:34.925 [info] <0.7070.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:34.926 [info] <0.7070.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:34.929 [info] <0.7070.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:10:36.273 [info] <0.7070.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:36.274 [info] <0.7070.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:36.277 [info] <0.7070.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:10:51.584 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:10:51.585 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:10:51.616 [info] <0.7455.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:10:51.641 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:10:51.641 [info] <0.7499.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:10:51.643 [info] <0.7499.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:10:51.645 [info] <0.7499.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:10:51.647 [info] <0.7499.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:10:51.649 [info] <0.7499.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:10:51.651 [info] <0.7499.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:10:51.653 [info] <0.7499.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:10:51.654 [info] <0.7499.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:10:51.658 [info] <0.7499.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:10:51.686 [info] <0.7499.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:10:51.688 [info] <0.7499.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:10:51.695 [info] <0.7499.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:10:51.699 [info] <0.7499.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:10:51.701 [info] <0.7499.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:10:51.703 [info] <0.7499.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:10:51.705 [info] <0.7499.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:10:51.707 [info] <0.7499.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:10:51.709 [info] <0.7499.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:10:51.711 [info] <0.7499.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:10:51.713 [info] <0.7499.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:10:51.715 [info] <0.7499.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:10:51.726 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:10:52.896 [info] <0.7455.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:52.897 [info] <0.7455.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:52.900 [info] <0.7455.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:10:54.240 [info] <0.7455.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:54.241 [info] <0.7455.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:54.244 [info] <0.7455.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:10:55.581 [info] <0.7455.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:10:55.582 [info] <0.7455.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:10:55.585 [info] <0.7455.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:11:03.256 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:11:03.256 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:11:03.288 [info] <0.7848.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:11:03.314 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:11:03.314 [info] <0.7893.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:11:03.316 [info] <0.7893.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:11:03.318 [info] <0.7893.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:11:03.320 [info] <0.7893.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:11:03.322 [info] <0.7893.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:11:03.324 [info] <0.7893.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:11:03.326 [info] <0.7893.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:11:03.327 [info] <0.7893.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:11:03.331 [info] <0.7893.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:11:03.360 [info] <0.7893.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:11:03.362 [info] <0.7893.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:11:03.369 [info] <0.7893.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:11:03.373 [info] <0.7893.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:11:03.375 [info] <0.7893.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:11:03.377 [info] <0.7893.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:11:03.378 [info] <0.7893.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:11:03.380 [info] <0.7893.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:11:03.382 [info] <0.7893.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:11:03.384 [info] <0.7893.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:11:03.386 [info] <0.7893.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:11:03.387 [info] <0.7893.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:11:03.398 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:11:04.576 [info] <0.7848.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:04.577 [info] <0.7848.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:04.580 [info] <0.7848.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:11:05.920 [info] <0.7848.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:05.921 [info] <0.7848.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:05.924 [info] <0.7848.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:11:07.266 [info] <0.7848.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:07.267 [info] <0.7848.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:07.270 [info] <0.7848.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:11:14.942 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:11:14.943 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:11:14.975 [info] <0.8230.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:11:15.001 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:11:15.001 [info] <0.8275.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:11:15.003 [info] <0.8275.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:11:15.005 [info] <0.8275.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:11:15.007 [info] <0.8275.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:11:15.009 [info] <0.8275.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:11:15.011 [info] <0.8275.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:11:15.013 [info] <0.8275.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:11:15.014 [info] <0.8275.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:11:15.018 [info] <0.8275.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:11:15.046 [info] <0.8275.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:11:15.048 [info] <0.8275.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:11:15.055 [info] <0.8275.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:11:15.059 [info] <0.8275.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:11:15.061 [info] <0.8275.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:11:15.063 [info] <0.8275.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:11:15.065 [info] <0.8275.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:11:15.067 [info] <0.8275.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:11:15.069 [info] <0.8275.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:11:15.071 [info] <0.8275.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:11:15.073 [info] <0.8275.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:11:15.074 [info] <0.8275.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:11:15.085 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:11:16.262 [info] <0.8230.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:16.264 [info] <0.8230.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:16.267 [info] <0.8230.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:11:17.605 [info] <0.8230.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:17.606 [info] <0.8230.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:17.609 [info] <0.8230.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:11:18.948 [info] <0.8230.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:18.949 [info] <0.8230.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:18.952 [info] <0.8230.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:11:26.654 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:11:26.655 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:11:26.685 [info] <0.8610.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:11:26.711 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:11:26.711 [info] <0.8655.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:11:26.713 [info] <0.8655.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:11:26.715 [info] <0.8655.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:11:26.717 [info] <0.8655.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:11:26.718 [info] <0.8655.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:11:26.720 [info] <0.8655.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:11:26.722 [info] <0.8655.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:11:26.724 [info] <0.8655.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:11:26.727 [info] <0.8655.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:11:26.756 [info] <0.8655.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:11:26.758 [info] <0.8655.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:11:26.765 [info] <0.8655.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:11:26.769 [info] <0.8655.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:11:26.770 [info] <0.8655.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:11:26.772 [info] <0.8655.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:11:26.774 [info] <0.8655.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:11:26.776 [info] <0.8655.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:11:26.778 [info] <0.8655.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:11:26.779 [info] <0.8655.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:11:26.781 [info] <0.8655.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:11:26.783 [info] <0.8655.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:11:26.794 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:11:27.959 [info] <0.8610.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:27.960 [info] <0.8610.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:27.963 [info] <0.8610.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:11:29.293 [info] <0.8610.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:29.294 [info] <0.8610.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:29.297 [info] <0.8610.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:11:30.634 [info] <0.8610.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:30.635 [info] <0.8610.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:30.638 [info] <0.8610.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:11:30.871 [info] <0.8610.0>@lasp_SUITE:membership_test:838 Nodes: ['runner@antoine-PC','node-3@antoine-PC','node-2@antoine-PC','node-1@antoine-PC']
+2017-05-03 15:11:30.871 [info] <0.8610.0>@lasp_SUITE:membership_test:841 Waiting for cluster to stabilize.
+2017-05-03 15:11:47.907 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:11:47.908 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-05-03 15:11:47.939 [info] <0.8978.0>@lasp_support:start_runner:268 Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+2017-05-03 15:11:47.965 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-05-03 15:11:47.965 [info] <0.9022.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:11:47.967 [info] <0.9022.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:11:47.969 [info] <0.9022.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:11:47.971 [info] <0.9022.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:11:47.972 [info] <0.9022.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-03 15:11:47.974 [info] <0.9022.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:11:47.976 [info] <0.9022.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:11:47.978 [info] <0.9022.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:11:47.981 [info] <0.9022.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:11:48.010 [info] <0.9022.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:11:48.012 [info] <0.9022.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:11:48.019 [info] <0.9022.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:11:48.023 [info] <0.9022.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:11:48.024 [info] <0.9022.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:11:48.026 [info] <0.9022.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:11:48.028 [info] <0.9022.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:11:48.030 [info] <0.9022.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:11:48.031 [info] <0.9022.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:11:48.033 [info] <0.9022.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-03 15:11:48.035 [info] <0.9022.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:11:48.037 [info] <0.9022.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:11:48.047 [info] <0.31.0> Application lasp started on node 'runner@antoine-PC'
+2017-05-03 15:11:49.214 [info] <0.8978.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:49.215 [info] <0.8978.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:49.218 [info] <0.8978.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+2017-05-03 15:11:50.549 [info] <0.8978.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:50.550 [info] <0.8978.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:50.553 [info] <0.8978.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+2017-05-03 15:11:51.892 [info] <0.8978.0>@lasp_support:load_lasp:330 Enabling membership...
+2017-05-03 15:11:51.893 [info] <0.8978.0>@lasp_support:load_lasp:333 Disabling blocking sync...
+2017-05-03 15:11:51.896 [info] <0.8978.0>@lasp_support:load_lasp:338 Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+2017-05-03 15:11:52.128 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:782 Manager: partisan_default_peer_service_manager
+2017-05-03 15:11:52.128 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:785 Nodes: ['runner@antoine-PC','node-3@antoine-PC','node-2@antoine-PC','node-1@antoine-PC']
+2017-05-03 15:11:52.128 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:788 Waiting for cluster to stabilize.
+2017-05-03 15:12:02.148 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:804 Adding invariant on node: 'node-1@antoine-PC'!
+2017-05-03 15:12:02.149 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:808 Invariant configured!
+2017-05-03 15:12:02.166 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:818 Waiting for response...
+2017-05-03 15:12:02.166 [info] <0.8978.0>@lasp_SUITE:enforce_once_test:828 Finished enforce_once test.
+2017-05-03 15:12:09.191 [info] <0.31.0> Application lasp exited with reason: stopped
+2017-05-03 15:12:09.192 [info] <0.31.0> Application partisan exited with reason: stopped

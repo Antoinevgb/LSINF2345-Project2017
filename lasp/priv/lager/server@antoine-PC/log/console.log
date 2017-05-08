@@ -1,0 +1,258 @@
+2017-04-20 14:17:30.716 [info] <0.31.0> Application lager started on node 'server@antoine-PC'
+2017-04-20 14:17:30.716 [info] <0.31.0> Application time_compat started on node 'server@antoine-PC'
+2017-04-20 14:17:30.726 [info] <0.31.0> Application os_mon started on node 'server@antoine-PC'
+2017-04-20 14:17:30.730 [info] <0.31.0> Application riak_dt started on node 'server@antoine-PC'
+2017-04-20 14:17:30.730 [info] <0.31.0> Application lasp_support started on node 'server@antoine-PC'
+2017-04-20 14:17:30.731 [info] <0.31.0> Application rand_compat started on node 'server@antoine-PC'
+2017-04-20 14:17:30.733 [info] <0.31.0> Application acceptor_pool started on node 'server@antoine-PC'
+2017-04-20 14:17:30.767 [info] <0.31.0> Application partisan started on node 'server@antoine-PC'
+2017-04-20 14:17:30.772 [info] <0.31.0> Application plumtree started on node 'server@antoine-PC'
+2017-04-20 14:17:30.772 [info] <0.255.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-04-20 14:17:30.776 [info] <0.255.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-04-20 14:17:30.777 [info] <0.255.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-04-20 14:17:30.777 [info] <0.255.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-04-20 14:17:30.778 [info] <0.255.0>@lasp_sup:configure_defaults:239 Setting extended logging: true
+2017-04-20 14:17:30.779 [info] <0.255.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-04-20 14:17:30.780 [info] <0.255.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-04-20 14:17:30.781 [info] <0.255.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-04-20 14:17:30.783 [info] <0.255.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-04-20 14:17:30.798 [info] <0.255.0>@lasp_sup:init:88 Membership: false
+2017-04-20 14:17:30.799 [info] <0.255.0>@lasp_sup:init:106 Workflow: true
+2017-04-20 14:17:30.801 [info] <0.255.0>@lasp_sup:init:148 Instrumentation is enabled!
+2017-04-20 14:17:30.802 [info] <0.255.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-04-20 14:17:30.804 [info] <0.255.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: true
+2017-04-20 14:17:30.805 [info] <0.255.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-04-20 14:17:30.805 [info] <0.255.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-04-20 14:17:30.806 [info] <0.255.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-04-20 14:17:30.807 [info] <0.255.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-04-20 14:17:30.808 [info] <0.255.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-04-20 14:17:30.809 [info] <0.255.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gset
+2017-04-20 14:17:30.810 [info] <0.255.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-04-20 14:17:30.811 [info] <0.255.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-04-20 14:17:30.829 [info] <0.315.0>@sprinter_backend:init:119 Not using container orchestration; disabling.
+2017-04-20 14:17:30.831 [info] <0.31.0> Application sprinter started on node 'server@antoine-PC'
+2017-04-20 14:17:30.832 [info] <0.307.0>@lasp_instrumentation:init:147 Instrumentation timer enabled!
+2017-04-20 14:17:30.833 [info] <0.317.0>@lasp_advertisement_counter_server:init:59 Advertisement counter server initialized.
+2017-04-20 14:17:30.844 [info] <0.31.0> Application lasp started on node 'server@antoine-PC'
+2017-04-20 14:17:31.362 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_1@antoine-PC',{127,0,0,1},36008}; node is client and we are server: we have 2 members in our view.
+2017-04-20 14:17:31.364 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_2@antoine-PC',{127,0,0,1},47245}; node is client and we are server: we have 3 members in our view.
+2017-04-20 14:17:31.364 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_3@antoine-PC',{127,0,0,1},34702}; node is client and we are server: we have 4 members in our view.
+2017-04-20 14:17:40.836 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-04-20 14:17:40.836 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:17:40.846 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:17:50.839 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 3
+2017-04-20 14:17:50.839 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:17:50.848 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:00.841 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 6
+2017-04-20 14:18:00.841 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:00.849 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:10.843 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 9
+2017-04-20 14:18:10.843 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:10.852 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:20.846 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 12
+2017-04-20 14:18:20.846 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:20.853 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:30.848 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 15
+2017-04-20 14:18:30.848 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:30.855 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:40.851 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 18
+2017-04-20 14:18:40.851 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:40.857 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:18:50.853 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 21
+2017-04-20 14:18:50.853 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:18:50.859 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:19:00.856 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 24
+2017-04-20 14:19:00.856 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-04-20 14:19:00.861 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-04-20 14:19:09.998 [info] <0.237.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6102>
+2017-04-20 14:19:09.999 [info] <0.239.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6104>
+2017-04-20 14:19:09.999 [info] <0.238.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6103>
+2017-05-03 15:12:24.111 [info] <0.31.0> Application lager started on node 'server@antoine-PC'
+2017-05-03 15:12:24.111 [info] <0.31.0> Application time_compat started on node 'server@antoine-PC'
+2017-05-03 15:12:24.121 [info] <0.31.0> Application os_mon started on node 'server@antoine-PC'
+2017-05-03 15:12:24.124 [info] <0.31.0> Application riak_dt started on node 'server@antoine-PC'
+2017-05-03 15:12:24.124 [info] <0.31.0> Application lasp_support started on node 'server@antoine-PC'
+2017-05-03 15:12:24.125 [info] <0.31.0> Application rand_compat started on node 'server@antoine-PC'
+2017-05-03 15:12:24.127 [info] <0.31.0> Application acceptor_pool started on node 'server@antoine-PC'
+2017-05-03 15:12:24.160 [info] <0.31.0> Application partisan started on node 'server@antoine-PC'
+2017-05-03 15:12:24.166 [info] <0.31.0> Application plumtree started on node 'server@antoine-PC'
+2017-05-03 15:12:24.166 [info] <0.255.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:12:24.169 [info] <0.255.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:12:24.170 [info] <0.255.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:12:24.171 [info] <0.255.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:12:24.172 [info] <0.255.0>@lasp_sup:configure_defaults:239 Setting extended logging: true
+2017-05-03 15:12:24.173 [info] <0.255.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:12:24.174 [info] <0.255.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:12:24.174 [info] <0.255.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:12:24.176 [info] <0.255.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:12:24.192 [info] <0.255.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:12:24.193 [info] <0.255.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:12:24.196 [info] <0.255.0>@lasp_sup:init:148 Instrumentation is enabled!
+2017-05-03 15:12:24.197 [info] <0.255.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-03 15:12:24.198 [info] <0.255.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: true
+2017-05-03 15:12:24.199 [info] <0.255.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:12:24.200 [info] <0.255.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:12:24.201 [info] <0.255.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:12:24.202 [info] <0.255.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:12:24.203 [info] <0.255.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:12:24.204 [info] <0.255.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gset
+2017-05-03 15:12:24.204 [info] <0.255.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:12:24.205 [info] <0.255.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:12:24.239 [info] <0.315.0>@sprinter_backend:init:119 Not using container orchestration; disabling.
+2017-05-03 15:12:24.240 [info] <0.31.0> Application sprinter started on node 'server@antoine-PC'
+2017-05-03 15:12:24.241 [info] <0.307.0>@lasp_instrumentation:init:147 Instrumentation timer enabled!
+2017-05-03 15:12:24.242 [info] <0.317.0>@lasp_advertisement_counter_server:init:59 Advertisement counter server initialized.
+2017-05-03 15:12:24.271 [info] <0.31.0> Application lasp started on node 'server@antoine-PC'
+2017-05-03 15:12:24.819 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_1@antoine-PC',{127,0,0,1},46308}; node is client and we are server: we have 2 members in our view.
+2017-05-03 15:12:24.821 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_2@antoine-PC',{127,0,0,1},55304}; node is client and we are server: we have 3 members in our view.
+2017-05-03 15:12:24.821 [info] <0.230.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'client_3@antoine-PC',{127,0,0,1},54296}; node is client and we are server: we have 4 members in our view.
+2017-05-03 15:12:34.246 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:12:34.246 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:12:34.272 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:12:44.249 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:12:44.249 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:12:44.274 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:12:54.252 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:12:54.252 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:12:54.276 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:04.253 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:04.253 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:04.277 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:14.255 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:14.255 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:14.278 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:24.258 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:24.258 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:24.280 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:34.261 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:34.261 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:34.282 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:44.263 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:44.263 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:44.284 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:13:54.265 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:13:54.265 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:13:54.285 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:04.267 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:04.267 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:04.286 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:14.270 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:14.270 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:14.287 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:24.272 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:24.272 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:24.289 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:34.275 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:34.275 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:34.291 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:44.277 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:44.277 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:44.293 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:14:54.279 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:14:54.279 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:14:54.294 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:04.281 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:04.281 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:04.295 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:14.284 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:14.284 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:14.297 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:24.285 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:24.285 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:24.299 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:34.287 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:34.287 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:34.300 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:44.290 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:44.290 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:44.302 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:15:54.291 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:15:54.291 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:15:54.304 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:04.293 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:04.294 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:04.306 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:14.296 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:14.296 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:14.307 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:24.299 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:24.299 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:24.310 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:34.301 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:34.301 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:34.311 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:44.303 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:44.303 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:44.312 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:16:54.306 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:16:54.306 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:16:54.314 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:04.308 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:04.308 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:04.316 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:14.310 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:14.310 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:14.318 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:24.313 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:24.313 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:24.320 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:34.314 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:34.314 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:34.322 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:44.316 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:44.316 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:44.323 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:17:54.318 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:17:54.318 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:17:54.324 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:04.321 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:04.321 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:04.325 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:14.323 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:14.323 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:14.328 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:24.324 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:24.325 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:24.329 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:34.326 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:34.326 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:34.330 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:44.328 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:44.329 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:44.331 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:18:54.331 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:18:54.331 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:18:54.333 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:04.333 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:04.333 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:04.335 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:14.336 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:14.336 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:14.337 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:24.338 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:24.338 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:24.339 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:34.341 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:34.341 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:34.342 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:44.343 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:44.343 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:44.344 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:19:54.345 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:19:54.345 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:19:54.346 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:20:04.348 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:20:04.348 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:20:04.348 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:20:14.349 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:20:14.349 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:20:14.350 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:20:24.352 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:20:24.352 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:20:24.353 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:20:34.354 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:113 Impressions on {<<234,38,125,206,153,37,217,153,216,107,88,14,137,22,74,21,213,244,47,128>>,gcounter} : 0
+2017-05-03 15:20:34.354 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:118 Enabled advertisements: 1
+2017-05-03 15:20:34.355 [info] <0.317.0>@lasp_advertisement_counter_server:handle_info:148 Checking for simulation end: 0 nodes with ads disabled and 0 nodes with logs pushed: of 3 clients.
+2017-05-03 15:20:44.243 [info] <0.237.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6102>
+2017-05-03 15:20:44.243 [info] <0.239.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6104>
+2017-05-03 15:20:44.243 [info] <0.238.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.6103>

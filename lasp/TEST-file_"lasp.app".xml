@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" errors="0" skipped="0" time="0.401" name="file &quot;lasp.app&quot;">
+  <testcase time="0.036" name="lasp_mochiglobal:0 get_put_delete_test (module 'lasp_mochiglobal')">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 example_test">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 accessor_test">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 merge_test">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 merge_less_left_test">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 merge_less_right_test">
+    <system-out>
+    </system-out>
+  </testcase>
+  <testcase time="0.000" name="lasp_vclock:0 merge_same_id_test">
+    <system-out>
+    </system-out>
+  </testcase>
+</testsuite>

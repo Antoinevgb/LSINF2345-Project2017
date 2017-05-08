@@ -1,0 +1,9 @@
+{application,riak_dt,
+             [{description,"riak CTDT datatypes"},
+              {vsn,"2.1.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[{binary_compression,1}]},
+              {maintainers,["Basho","Heinz N. Gies"]},
+              {licenses,["Apache"]},
+              {links,[{"Github","https://github.com/basho/riak_dt"}]}]}.

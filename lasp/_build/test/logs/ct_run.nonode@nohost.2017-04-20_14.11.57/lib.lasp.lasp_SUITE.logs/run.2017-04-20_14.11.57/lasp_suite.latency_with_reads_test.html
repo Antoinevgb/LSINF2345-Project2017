@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test lasp_SUITE:latency_with_reads_test result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="lasp_suite.src.html#latency_with_reads_test-1">lasp_SUITE:latency_with_reads_test/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.451.0&gt;},
+     {tc_logfile,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-20_14.11.57/lib.lasp.lasp_SUITE.logs/run.2017-04-20_14.11.57/lasp_suite.latency_with_reads_test.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/lib/lasp/test/lasp_SUITE_data/"},
+     {priv_dir,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-20_14.11.57/lib.lasp.lasp_SUITE.logs/run.2017-04-20_14.11.57/log_private/"}]
+
+=== Current directory is "/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/logs/ct_run.nonode@nohost.2017-04-20_14.11.57"
+
+=== Started at 2017-04-20 14:12:20
+
+<br />
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.652 ***</b>
+Beginning case: latency_with_reads_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.658 ***</b>
+14:12:20.658 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'runner@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.684 ***</b>
+14:12:20.684 [info] Application partisan started on node 'runner@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.684 ***</b>
+14:12:20.684 [info] Setting jitter: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.686 ***</b>
+14:12:20.686 [info] Setting tutorial: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.688 ***</b>
+14:12:20.688 [info] Setting event interval: 0
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.690 ***</b>
+14:12:20.690 [info] Setting max events: 1000
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.692 ***</b>
+14:12:20.692 [info] Setting extended logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.693 ***</b>
+14:12:20.693 [info] Setting mailbox logging: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.695 ***</b>
+14:12:20.695 [info] Setting operation mode: state_based
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.697 ***</b>
+14:12:20.697 [info] Setting set type: orset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.701 ***</b>
+14:12:20.700 [info] Setting broadcast: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.729 ***</b>
+14:12:20.729 [info] Membership: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.730 ***</b>
+14:12:20.730 [info] Workflow: true
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.738 ***</b>
+14:12:20.738 [info] AdClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.741 ***</b>
+14:12:20.741 [info] AdServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.743 ***</b>
+14:12:20.743 [info] TournClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.745 ***</b>
+14:12:20.745 [info] TournServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.747 ***</b>
+14:12:20.747 [info] ThroughputType: gset
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.748 ***</b>
+14:12:20.748 [info] ThroughputClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.750 ***</b>
+14:12:20.750 [info] ThroughputServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.752 ***</b>
+14:12:20.752 [info] DivergenceType: gcounter
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.754 ***</b>
+14:12:20.754 [info] DivergenceClientEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.756 ***</b>
+14:12:20.756 [info] DivergenceServerEnabled: false
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:20.767 ***</b>
+14:12:20.767 [info] Application lasp started on node 'runner@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:21.939 ***</b>
+14:12:21.939 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:21.940 ***</b>
+14:12:21.940 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:21.944 ***</b>
+14:12:21.943 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-1@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:23.304 ***</b>
+14:12:23.304 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:23.305 ***</b>
+14:12:23.305 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:23.309 ***</b>
+14:12:23.309 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-2@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.648 ***</b>
+14:12:24.648 [info] Enabling membership...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.649 ***</b>
+14:12:24.649 [info] Disabling blocking sync...
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.653 ***</b>
+14:12:24.653 [info] Configured peer_service_manager partisan_default_peer_service_manager on node 'node-3@antoine-PC'
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.815 ***</b>
+Joining node: 'node-3@antoine-PC' to 'runner@antoine-PC' at port 52850
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.815 ***</b>
+Joining issued: 'node-3@antoine-PC' to 'runner@antoine-PC' at port 52850
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.816 ***</b>
+Joining node: 'node-2@antoine-PC' to 'runner@antoine-PC' at port 52503
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.816 ***</b>
+Joining issued: 'node-2@antoine-PC' to 'runner@antoine-PC' at port 52503
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.816 ***</b>
+Joining node: 'node-1@antoine-PC' to 'runner@antoine-PC' at port 38199
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.816 ***</b>
+Joining issued: 'node-1@antoine-PC' to 'runner@antoine-PC' at port 38199
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.877 ***</b>
+Waiting for join to complete with manager: partisan_default_peer_service_manager
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.878 ***</b>
+Finished.
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-04-20 14:12:24.878 *** COVER INFO</b>
+Adding nodes to cover test: ['runner@antoine-PC']
+</pre></div>
+<pre>
+</pre>
+<div class="ct_internal"><pre><b>*** CT 2017-04-20 14:12:24.883 *** COVER INFO</b>
+Successfully added nodes to cover test: []
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:24.883 ***</b>
+Case finished: latency_with_reads_test
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:31.909 ***</b>
+14:12:31.909 [info] Application lasp exited with reason: stopped
+
+</pre></div>
+<pre>
+
+</pre>
+<div class="default"><pre><b>*** User 2017-04-20 14:12:31.909 ***</b>
+14:12:31.909 [info] Application partisan exited with reason: stopped
+
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2017-04-20 14:12:31
+=== successfully completed test case
+=== Returned value: ok
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>
+</p>
+<div class="copyright">Copyright &copy; 2017 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Thu Apr 20 2017 14:12:20<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

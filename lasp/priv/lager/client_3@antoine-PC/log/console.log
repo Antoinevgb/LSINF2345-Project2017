@@ -1,0 +1,155 @@
+2017-04-20 14:17:31.245 [info] <0.31.0> Application lager started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.245 [info] <0.31.0> Application time_compat started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.256 [info] <0.31.0> Application os_mon started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.260 [info] <0.31.0> Application riak_dt started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.260 [info] <0.31.0> Application lasp_support started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.260 [info] <0.31.0> Application rand_compat started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.262 [info] <0.31.0> Application acceptor_pool started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.295 [info] <0.31.0> Application partisan started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.300 [info] <0.31.0> Application plumtree started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.300 [info] <0.259.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-04-20 14:17:31.303 [info] <0.259.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-04-20 14:17:31.304 [info] <0.259.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-04-20 14:17:31.305 [info] <0.259.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-04-20 14:17:31.306 [info] <0.259.0>@lasp_sup:configure_defaults:239 Setting extended logging: true
+2017-04-20 14:17:31.307 [info] <0.259.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-04-20 14:17:31.308 [info] <0.259.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-04-20 14:17:31.309 [info] <0.259.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-04-20 14:17:31.311 [info] <0.259.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-04-20 14:17:31.325 [info] <0.259.0>@lasp_sup:init:88 Membership: false
+2017-04-20 14:17:31.326 [info] <0.259.0>@lasp_sup:init:106 Workflow: true
+2017-04-20 14:17:31.329 [info] <0.259.0>@lasp_sup:init:148 Instrumentation is enabled!
+2017-04-20 14:17:31.330 [info] <0.259.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: true
+2017-04-20 14:17:31.332 [info] <0.259.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-04-20 14:17:31.333 [info] <0.259.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-04-20 14:17:31.334 [info] <0.259.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-04-20 14:17:31.335 [info] <0.259.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-04-20 14:17:31.335 [info] <0.259.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-04-20 14:17:31.336 [info] <0.259.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-04-20 14:17:31.337 [info] <0.259.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gset
+2017-04-20 14:17:31.338 [info] <0.259.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-04-20 14:17:31.339 [info] <0.259.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-04-20 14:17:31.357 [info] <0.319.0>@sprinter_backend:init:119 Not using container orchestration; disabling.
+2017-04-20 14:17:31.358 [info] <0.31.0> Application sprinter started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.359 [info] <0.311.0>@lasp_instrumentation:init:147 Instrumentation timer enabled!
+2017-04-20 14:17:31.360 [info] <0.321.0>@lasp_advertisement_counter_client:init:58 Advertisement counter client initialized.
+2017-04-20 14:17:31.360 [info] <0.31.0> Application lasp started on node 'client_3@antoine-PC'
+2017-04-20 14:17:31.371 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'server@antoine-PC',{127,0,0,1},42177}; node is server and we are client: we have 2 members in our view.
+2017-04-20 14:17:31.371 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:319 Join REFUSED with {'client_1@antoine-PC',{127,0,0,1},36008}; node is client and we are client
+2017-04-20 14:17:31.371 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:321 Keeping membership: {state_orset,[{{'client_3@antoine-PC',{127,0,0,1},34702},[{<<120,107,58,152,77,210,214,242,90,197,85,9,232,208,171,221,70,202,185,199>>,true}]},{{'server@antoine-PC',{127,0,0,1},42177},[{<<15,93,66,129,75,61,98,95,168,18,232,222,43,19,130,144,126,140,166,183>>,true}]}]}
+2017-04-20 14:17:31.372 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:319 Join REFUSED with {'client_2@antoine-PC',{127,0,0,1},47245}; node is client and we are client
+2017-04-20 14:17:31.372 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:321 Keeping membership: {state_orset,[{{'client_3@antoine-PC',{127,0,0,1},34702},[{<<120,107,58,152,77,210,214,242,90,197,85,9,232,208,171,221,70,202,185,199>>,true}]},{{'server@antoine-PC',{127,0,0,1},42177},[{<<15,93,66,129,75,61,98,95,168,18,232,222,43,19,130,144,126,140,166,183>>,true}]}]}
+2017-04-20 14:17:41.366 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:17:41.366 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 1, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:17:51.374 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 4, node: 'client_3@antoine-PC'
+2017-04-20 14:17:51.375 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 2, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:01.385 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 7, node: 'client_3@antoine-PC'
+2017-04-20 14:18:01.386 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 3, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:11.390 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 10, node: 'client_3@antoine-PC'
+2017-04-20 14:18:11.390 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 4, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:21.400 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 13, node: 'client_3@antoine-PC'
+2017-04-20 14:18:21.400 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 5, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:31.411 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 16, node: 'client_3@antoine-PC'
+2017-04-20 14:18:31.412 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 6, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:41.418 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 19, node: 'client_3@antoine-PC'
+2017-04-20 14:18:41.418 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 7, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:18:51.425 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 22, node: 'client_3@antoine-PC'
+2017-04-20 14:18:51.426 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 8, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:19:01.434 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:151 Impressions seen: 25, node: 'client_3@antoine-PC'
+2017-04-20 14:19:01.434 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 9, current ad size: 1, node: 'client_3@antoine-PC'
+2017-04-20 14:19:09.998 [info] <0.243.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5820>
+2017-04-20 14:19:09.998 [info] <0.242.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5819>
+2017-04-20 14:19:09.998 [info] <0.241.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5818>
+2017-05-03 15:12:24.703 [info] <0.31.0> Application lager started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.703 [info] <0.31.0> Application time_compat started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.714 [info] <0.31.0> Application os_mon started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.718 [info] <0.31.0> Application riak_dt started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.718 [info] <0.31.0> Application lasp_support started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.719 [info] <0.31.0> Application rand_compat started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.720 [info] <0.31.0> Application acceptor_pool started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.753 [info] <0.31.0> Application partisan started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.758 [info] <0.31.0> Application plumtree started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.759 [info] <0.259.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-03 15:12:24.761 [info] <0.259.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-03 15:12:24.762 [info] <0.259.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-03 15:12:24.763 [info] <0.259.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-03 15:12:24.764 [info] <0.259.0>@lasp_sup:configure_defaults:239 Setting extended logging: true
+2017-05-03 15:12:24.765 [info] <0.259.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-03 15:12:24.766 [info] <0.259.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-03 15:12:24.767 [info] <0.259.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-03 15:12:24.769 [info] <0.259.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-03 15:12:24.783 [info] <0.259.0>@lasp_sup:init:88 Membership: false
+2017-05-03 15:12:24.784 [info] <0.259.0>@lasp_sup:init:106 Workflow: true
+2017-05-03 15:12:24.786 [info] <0.259.0>@lasp_sup:init:148 Instrumentation is enabled!
+2017-05-03 15:12:24.787 [info] <0.259.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: true
+2017-05-03 15:12:24.789 [info] <0.259.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-03 15:12:24.790 [info] <0.259.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-03 15:12:24.791 [info] <0.259.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-03 15:12:24.792 [info] <0.259.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-03 15:12:24.792 [info] <0.259.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-03 15:12:24.793 [info] <0.259.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-03 15:12:24.794 [info] <0.259.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gset
+2017-05-03 15:12:24.795 [info] <0.259.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-03 15:12:24.796 [info] <0.259.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-03 15:12:24.814 [info] <0.319.0>@sprinter_backend:init:119 Not using container orchestration; disabling.
+2017-05-03 15:12:24.815 [info] <0.31.0> Application sprinter started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.816 [info] <0.311.0>@lasp_instrumentation:init:147 Instrumentation timer enabled!
+2017-05-03 15:12:24.817 [info] <0.321.0>@lasp_advertisement_counter_client:init:58 Advertisement counter client initialized.
+2017-05-03 15:12:24.817 [info] <0.31.0> Application lasp started on node 'client_3@antoine-PC'
+2017-05-03 15:12:24.828 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:311 Join ACCEPTED with {'server@antoine-PC',{127,0,0,1},48743}; node is server and we are client: we have 2 members in our view.
+2017-05-03 15:12:24.828 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:319 Join REFUSED with {'client_1@antoine-PC',{127,0,0,1},46308}; node is client and we are client
+2017-05-03 15:12:24.828 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:321 Keeping membership: {state_orset,[{{'client_3@antoine-PC',{127,0,0,1},54296},[{<<245,77,111,109,201,101,45,252,127,95,217,228,200,41,12,220,96,144,251,62>>,true}]},{{'server@antoine-PC',{127,0,0,1},48743},[{<<82,40,236,238,130,233,190,242,146,193,91,212,91,234,107,179,160,95,248,89>>,true}]}]}
+2017-05-03 15:12:24.829 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:319 Join REFUSED with {'client_2@antoine-PC',{127,0,0,1},55304}; node is client and we are client
+2017-05-03 15:12:24.829 [info] <0.234.0>@partisan_client_server_peer_service_manager:handle_info:321 Keeping membership: {state_orset,[{{'client_3@antoine-PC',{127,0,0,1},54296},[{<<245,77,111,109,201,101,45,252,127,95,217,228,200,41,12,220,96,144,251,62>>,true}]},{{'server@antoine-PC',{127,0,0,1},48743},[{<<82,40,236,238,130,233,190,242,146,193,91,212,91,234,107,179,160,95,248,89>>,true}]}]}
+2017-05-03 15:12:34.824 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:12:44.826 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:12:54.828 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:04.830 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:14.832 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:24.834 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:34.836 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:44.838 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:13:54.840 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:04.842 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:14.844 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:24.847 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:34.849 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:44.851 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:14:54.854 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:04.856 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:14.858 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:24.860 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:34.862 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:44.864 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:15:54.866 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:04.868 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:14.870 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:24.872 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:34.874 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:44.876 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:16:54.878 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:04.881 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:14.883 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:24.885 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:34.887 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:44.890 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:17:54.893 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:04.895 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:14.897 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:24.899 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:34.901 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:44.903 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:18:54.905 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:04.907 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:14.909 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:24.912 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:34.914 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:44.917 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:19:54.919 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:20:04.923 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:20:14.925 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:20:24.927 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:20:34.929 [info] <0.321.0>@lasp_advertisement_counter_client:handle_info:101 Impressions: 0, current ad size: 0, node: 'client_3@antoine-PC'
+2017-05-03 15:20:44.243 [info] <0.241.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5819>
+2017-05-03 15:20:44.243 [info] <0.243.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5821>
+2017-05-03 15:20:44.243 [info] <0.242.0>@partisan_peer_service_server:handle_info:83 Gracefully closing #Port<0.5820>

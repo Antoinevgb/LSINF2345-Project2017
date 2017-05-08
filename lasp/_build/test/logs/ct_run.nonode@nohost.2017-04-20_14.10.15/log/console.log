@@ -1,0 +1,42 @@
+2017-04-20 14:10:16.150 [info] <0.31.0> Application lager started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.150 [info] <0.31.0> Application time_compat started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.181 [info] <0.31.0> Application os_mon started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.185 [info] <0.31.0> Application riak_dt started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.185 [info] <0.31.0> Application lasp_support started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.187 [info] <0.31.0> Application rand_compat started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.192 [info] <0.31.0> Application acceptor_pool started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.257 [info] <0.31.0> Application partisan started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.273 [info] <0.31.0> Application plumtree started on node 'runner@antoine-PC'
+2017-04-20 14:10:16.273 [info] <0.3306.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-04-20 14:10:16.275 [info] <0.3306.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-04-20 14:10:16.276 [info] <0.3306.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-04-20 14:10:16.277 [info] <0.3306.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-04-20 14:10:16.278 [info] <0.3306.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-04-20 14:10:16.279 [info] <0.3306.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-04-20 14:10:16.280 [info] <0.3306.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-04-20 14:10:16.282 [info] <0.3306.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-04-20 14:10:16.284 [info] <0.3306.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-04-20 14:10:16.307 [info] <0.3306.0>@lasp_sup:init:88 Membership: false
+2017-04-20 14:10:16.308 [info] <0.3306.0>@lasp_sup:init:106 Workflow: true
+2017-04-20 14:10:16.312 [info] <0.3306.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-04-20 14:10:16.314 [info] <0.3306.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-04-20 14:10:16.316 [info] <0.3306.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-04-20 14:10:16.317 [info] <0.3306.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-04-20 14:10:16.318 [info] <0.3306.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-04-20 14:10:16.319 [info] <0.3306.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-04-20 14:10:16.320 [info] <0.3306.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-04-20 14:10:16.321 [info] <0.3306.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-04-20 14:10:16.322 [info] <0.3306.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-04-20 14:10:16.323 [info] <0.3306.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-04-20 14:10:16.335 [error] <0.3378.0> CRASH REPORT Process <0.3378.0> with 1 neighbours exited with reason: {connection_error,{connection_error,econnrefused}} in gen_server:init_it/6 line 344
+2017-04-20 14:10:16.335 [error] <0.3306.0> Supervisor lasp_sup had child lasp_workflow started with lasp_workflow:start_link() at undefined exit with reason {connection_error,{connection_error,econnrefused}} in context start_error
+2017-04-20 14:10:16.337 [error] <0.3304.0> CRASH REPORT Process <0.3304.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,lasp_workflow,{connection_error,{connection_error,econnrefused}}}},{lasp_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-04-20 14:10:16.337 [info] <0.31.0> Application lasp exited with reason: {{shutdown,{failed_to_start_child,lasp_workflow,{connection_error,{connection_error,econnrefused}}}},{lasp_app,start,[normal,[]]}}
+2017-04-20 14:10:16.460 [info] <0.31.0> Application plumtree exited with reason: stopped
+2017-04-20 14:10:16.519 [info] <0.31.0> Application partisan exited with reason: stopped
+2017-04-20 14:10:16.519 [info] <0.31.0> Application acceptor_pool exited with reason: stopped
+2017-04-20 14:10:16.519 [info] <0.31.0> Application rand_compat exited with reason: stopped
+2017-04-20 14:10:16.519 [info] <0.31.0> Application lasp_support exited with reason: stopped
+2017-04-20 14:10:16.519 [info] <0.31.0> Application riak_dt exited with reason: stopped
+2017-04-20 14:10:16.520 [info] <0.31.0> Application os_mon exited with reason: stopped
+2017-04-20 14:10:16.520 [info] <0.31.0> Application time_compat exited with reason: stopped

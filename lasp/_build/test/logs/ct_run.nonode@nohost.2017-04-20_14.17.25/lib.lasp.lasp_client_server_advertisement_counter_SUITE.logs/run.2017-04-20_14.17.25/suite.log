@@ -1,0 +1,19 @@
+=== Suite started at 2017-04-20 14:17:25
+=== Starting test, 4 test cases
+=cases         4
+=user          antoine
+=host          nohost
+=hosts         nohost 
+=emulator_vsn  8.3
+=emulator      beam
+=otp_release   19
+=started       2017-04-20 14:17:25
+=case          lasp_client_server_advertisement_counter_SUITE:init_per_suite
+=logfile       lasp_client_server_advertisement_counter_suite.init_per_suite.html
+=started       2017-04-20 14:17:25
+=ended         2017-04-20 14:17:25
+=result        ok
+=elapsed       0.0
+=case          lasp_client_server_advertisement_counter_SUITE:client_server_state_based_test
+=logfile       lasp_client_server_advertisement_counter_suite.client_server_state_based_test.html
+=started       2017-04-20 14:17:25

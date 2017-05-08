@@ -1,0 +1,10 @@
+
+Common Test starting (cwd is /home/antoine/Documents/Unif/M1/DistributedSystems/lasp)
+
+
+
+CWD set to: "/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/test/logs/ct_run.nonode@nohost.2017-05-03_15.12.18"
+
+TEST INFO: 1 test(s), 4 case(s) in 1 suite(s)
+
+Testing lib.lasp.lasp_client_server_advertisement_counter_SUITE: Starting test, 4 test cases

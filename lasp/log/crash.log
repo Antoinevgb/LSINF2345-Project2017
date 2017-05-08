@@ -1,0 +1,30 @@
+2017-05-05 16:47:40 =ERROR REPORT====
+** Generic server lasp_distribution_backend terminating 
+** Last message in was {update,<<"set">>,state_orset,<0.197.0>}
+** When Server state == {state,<0.352.0>,[],<<170,227,142,126,63,64,19,227,195,66,39,125,58,195,75,134,148,109,168,79>>}
+** Reason for termination == 
+** {function_clause,[{lasp_core,update,[<<"set">>,state_orset,<0.197.0>,#Fun<lasp_distribution_backend.38.123925371>,#Fun<lasp_distribution_backend.39.123925371>,<0.352.0>],[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,472}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-05 16:47:40 =CRASH REPORT====
+  crasher:
+    initial call: lasp_distribution_backend:init/1
+    pid: <0.350.0>
+    registered_name: lasp_distribution_backend
+    exception exit: {{function_clause,[{lasp_core,update,[<<"set">>,state_orset,<0.197.0>,#Fun<lasp_distribution_backend.38.123925371>,#Fun<lasp_distribution_backend.39.123925371>,<0.352.0>],[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,472}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [lasp_sup,<0.304.0>]
+    messages: []
+    links: [<0.352.0>,<0.353.0>,<0.305.0>]
+    dictionary: [{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[165732357580860866|266570554695346420]}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 2449
+  neighbours:
+    neighbour: [{pid,<0.353.0>},{registered_name,lasp_state_based_synchronization_backend},{initial_call,{lasp_state_based_synchronization_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.304.0>]},{messages,[]},{links,[<0.350.0>]},{dictionary,[{rand_seed,{#{max => 288230376151711743,next => #Fun<rand.8.41921595>,type => exsplus,uniform => #Fun<rand.9.41921595>,uniform_n => #Fun<rand.10.41921595>},[92826545080201111|51238365701877523]}}]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,74}]
+    neighbour: [{pid,<0.352.0>},{registered_name,lasp_ets_storage_backend},{initial_call,{lasp_ets_storage_backend,init,['Argument__1']}},{current_function,{gen_server,loop,6}},{ancestors,[lasp_distribution_backend,lasp_sup,<0.304.0>]},{messages,[]},{links,[<0.350.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,9},{reductions,20}]
+2017-05-05 16:47:40 =SUPERVISOR REPORT====
+     Supervisor: {local,lasp_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lasp_core,update,[<<"set">>,state_orset,<0.197.0>,#Fun<lasp_distribution_backend.38.123925371>,#Fun<lasp_distribution_backend.39.123925371>,<0.352.0>],[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_core.erl"},{line,430}]},{lasp_distribution_backend,handle_call,3,[{file,"/home/antoine/Documents/Unif/M1/DistributedSystems/lasp/_build/default/lib/lasp/src/lasp_distribution_backend.erl"},{line,472}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.350.0>},{id,lasp_distribution_backend},{mfargs,{lasp_distribution_backend,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
